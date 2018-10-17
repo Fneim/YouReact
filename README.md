@@ -1,2 +1,0 @@
-# YouReact
-Created with CodeSandbox

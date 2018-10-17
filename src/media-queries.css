@@ -1,0 +1,51 @@
+/* .flex-container resize margins
+margin-left: 6.25em;
+  margin-right: 6.25em; */
+
+@media only screen and (max-width: 796px) {
+  .query {
+    margin: 5;
+    height: 65px;
+  }
+  .query p {
+    font-size: 1em;
+  }
+  .flex-container {
+    margin: 1.5em;
+    flex-flow: column-reverse;
+  }
+
+  .flex-container aside {
+    overflow: auto;
+    font-size: 0.625em;
+  }
+
+  .flex-container aside,
+  .flex-container section {
+    width: 100%;
+    margin: auto;
+  }
+
+  .flex-container section {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 797px) {
+  .flex-container {
+    margin: 0 3em;
+  }
+
+  .flex-container aside,
+  .flex-container section {
+    display: block;
+  }
+
+  .flex-container aside {
+    width: 35%;
+  }
+
+  .flex-container section {
+    width: 65%;
+  }
+}

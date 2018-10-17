@@ -1,0 +1,50 @@
+<html lang="en-us">
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="The best Youtube Reactions at your fingertips" />
+	<meta name="author" content="Fargin Neim" />
+	<meta name="keywords" content="Youtube, reactions" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<link href="src/index.css" rel="stylesheet" type="text/css" />
+	<link href="src/media-queries.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<nav class="nav">
+		<a href="/">YouReact</a>
+	</nav>
+	
+	<div class="searchbox">
+		<h2>Watch reactions to your favorite shows, movies, music, and more!</h2>
+		<input id="searchQuery" type="text" placeholder='"Game of Thrones season 1 episode 1 reaction"' />
+		<button id="submit" type="submit">
+			<span class="fa fa-search"></span></button>
+	</div>
+	<div id="backArrow"></div>
+	<div class="flex-container">
+		<aside id="searchResults" class="videos">
+		</aside>
+		<section id="displayVideo" class="player">
+		</section>
+	</div>
+	<footer>
+		<div> 
+			<p>COPYRIGHT &copy 2018 <a href="https://github.com/Fneim">Neim</a></p>
+			<span id="social" class='fa fa-plus'></span>
+			<div>
+				<span class='fas fas-github'></span>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+	<script src="src/model.js"></script>
+	<script src="src/controller.js"></script>
+	
+</body>
+
+</html>
