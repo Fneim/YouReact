@@ -2,7 +2,7 @@
 //loading the youtube api
 window.YoutubeApiLoad = function() {
   console.log("loaded");
-  gapi.client.setApiKey("AIzaSyAeSZTCYZJ4_ZHttJDMkNXGzNVeKmseD74");
+  gapi.client.setApiKey("");
   searchApi();
 };
 
