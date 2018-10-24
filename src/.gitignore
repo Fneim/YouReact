@@ -1,1 +1,2 @@
-/config/*
+#Ignore folder named `confi.js`
+config/
