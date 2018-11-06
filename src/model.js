@@ -1,6 +1,3 @@
-//import apikey
-import config from "./config/config.js";
-
 var myKey = config.APIKEY;
 //YoutubeApi is global, accessible to controller.js
 //loading the youtube api

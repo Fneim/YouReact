@@ -1,2 +1,2 @@
-#Ignore folder named `config`
-config/
+#Ignore a file name `config`
+config.js
